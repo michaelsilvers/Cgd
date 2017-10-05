@@ -1,5 +1,1 @@
-FROM perfectlysoft/perfectassistant:3.1
-
 RUN apt-get -y update && apt-get install -y libgd-dev
-
-RUN rm -rf /var/lib/apt/lists/*
